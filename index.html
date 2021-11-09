@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Openboard </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="options-cont">
+        <span class="material-icons ham-menu"> menu </span>
+    </div>
+
+    <div class="tools-cont">
+        <img src="./Icons/Pencil.svg" class="pencil">
+        <img src="./Icons/Eraser.svg" class="eraser">
+        <img src="./Icons/Download.svg" class="download">
+        <img src="./Icons/Upload.svg" class="upload">
+        <img src="./Icons/StickyNote.svg" class="sticky-note">
+        <img src="./Icons/Redo.svg" class="redo">
+        <img src="./Icons/Undo.svg" class="undo">
+    </div>
+
+    <div class="pencil-style-cont">
+        <div class="pencil-width-cont">
+            <input type="range" min="0" max="10" value="5">
+        </div>
+        <div class="pencil-color-cont">
+            <div class="black-color"></div>
+            <div class="red-color"></div>
+            <div class="blue-color"></div>
+        </div>
+    </div>
+
+    <div class="eraser-style-cont">
+        <div class="eraser-width-cont">
+            <input type="range" min="0" max="10" value="5">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
