@@ -12,6 +12,8 @@ let display_eraser_style = false;
 
 let sticky_note = document.querySelector(".sticky-note");
 let upload = document.querySelector(".upload");
+let pencil_width_selector=document.querySelector(".pencil-width");
+let eraser_width_selector=document.querySelector(".eraser-width");
 
 options_cont.addEventListener("click", function (e) {
     display_options = !display_options;

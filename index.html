@@ -27,22 +27,24 @@
 
     <div class="pencil-style-cont">
         <div class="pencil-width-cont">
-            <input type="range" min="0" max="10" value="5">
+            <input type="range" min="0" max="10" value="3" class="pencil-width">
         </div>
         <div class="pencil-color-cont">
-            <div class="black-color"></div>
-            <div class="red-color"></div>
-            <div class="blue-color"></div>
+            <div class="pencil-color black"></div>
+            <div class="pencil-color red"></div>
+            <div class="pencil-color blue"></div>
         </div>
     </div>
 
     <div class="eraser-style-cont">
         <div class="eraser-width-cont">
-            <input type="range" min="0" max="10" value="5">
+            <input type="range" min="0" max="10" value="5" class="eraser-width">
         </div>
     </div>
 
+    <canvas></canvas>
     <script src="./script.js"></script>
+    <script src="./canvas.js"></script>
 </body>
 
 </html>
