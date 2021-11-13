@@ -6,7 +6,7 @@ let app = express(); // initializes and server is ready
 app.use(express.static("public"));
 
 // port which I want to listen
-let port=3000;
+let port=process.env.PORT || 3000;
 // whenever someone connects with my server I want to  listen
 let server=app.listen(port,function(e){
     console.log("Listening to port:" + port);
